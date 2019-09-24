@@ -12,8 +12,9 @@ def turn(board)
     input = gets.chomp
     input_to_index(input)
     valid_move?(board, 0)
-    binding.pry
-    puts "Please enter 1-9:"
+    #binding.pry
+    #puts "Please enter 1-9:"
+    input = gets.chomp
     
 end 
 
