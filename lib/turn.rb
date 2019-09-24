@@ -7,32 +7,17 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# def turn(board)
-#       puts "Please enter 1-9:"
-#     num = gets.chomp
-#     index = input_to_index(num)
-#     if valid_move?(board, index) == true  
+def turn(board)
+      puts "Please enter 1-9:"
+     num = gets.chomp
+     index = input_to_index(num)
+     if valid_move?(board, index) == true  
       move(board, index)
       display_board(board)
     else 
       turn(boar)
-    end 
-    
-    
-# end 
+end 
 
-def turn (board)
-  puts "Please enter 1-9:"
-  num = gets.chomp
-  index = input_to_index(num)
-  if valid_move?(board, index) == true
-    move(board, index)
-    display_board(board)
-  else
-    turn(board)
-  end
-
-end
 def input_to_index(user_input)
     user_input = user_input.to_i
     user_input -= 1
