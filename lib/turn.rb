@@ -12,6 +12,8 @@ def turn(board)
     input = gets.chomp
     input_to_index(input)
     valid_move?(board, 0)
+    binding.pry
+    puts" Pl
 end 
 
 def input_to_index(user_input)
