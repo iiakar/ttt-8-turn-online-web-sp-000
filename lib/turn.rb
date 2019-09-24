@@ -13,7 +13,7 @@ def turn(board)
     input_to_index(input)
     valid_move?(board, 0)
     binding.pry
-    puts" Pl
+    puts "Please enter 1-9:"
 end 
 
 def input_to_index(user_input)
