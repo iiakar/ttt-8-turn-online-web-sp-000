@@ -13,7 +13,6 @@ def turn(board)
     input_to_index(input)
     valid_move?(board, 0)
     puts "Please enter a valid input"
-    input = gets.chomp
     
 end 
 
