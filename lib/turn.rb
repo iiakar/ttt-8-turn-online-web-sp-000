@@ -12,7 +12,7 @@ def turn(board)
      input = gets.chomp
      input_to_index(input)
      if valid_move?(board, input) == true  
-      move(board, index)
+      move(board, input)
       display_board(board)
     else 
       turn(board)
