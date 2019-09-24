@@ -14,6 +14,7 @@ def turn(board)
     valid_move?(board, 0)
     binding.pry
     puts "Please enter 1-9:"
+    
 end 
 
 def input_to_index(user_input)
