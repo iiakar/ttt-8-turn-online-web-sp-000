@@ -12,7 +12,7 @@ def turn(board)
     input = gets.chomp!
     input_to_index(input)
     #binding.pry
-    turn(board).valid_move?
+    
 end 
 
 def input_to_index(user_input)
